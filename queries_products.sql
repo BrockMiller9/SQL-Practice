@@ -1,0 +1,20 @@
+-- Comments in SQL Start with dash-dash --
+-- 1.   products_db=# INSERT INTO products(name, price, can_be_returned)
+-- products_db-# VALUES('Chair', 44.00, FALSE);
+-- 2. products_db=# INSERT INTO products(name, price, can_be_returned)
+-- VALUES('stool', 25.99, TRUE);
+-- 3.INSERT INTO products(name, price, can_be_returned)
+-- VALUES('table', 124.00, FALSE);
+-- 4.SELECT * FROM products;
+-- 5. SELECT name FROM products
+-- 6.SELECT name, price FROM products
+-- 7. INSERT INTO products(name, price, can_be_returned)
+-- VALUES('rug', 12.50, FALSE);
+-- 8. SELECT name FROM products WHERE can_be_returned = TRUE;
+-- 9.SELECT name FROM products WHERE price < 44.00
+-- 10.SELECT name FROM products WHERE price <99.99 and price > 22.50
+-- 11.  UPDATE products SET price = price -20;
+-- 12.DELETE FROM products WHERE price<25;
+-- 13.UPDATE products SET price = price +20;
+-- 14.UPDATE products SET can_be_returned = TRUE;
+-- 
